@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/imagetropic.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main{
+    width: 420px;
+    background: transparent;
+    border: solid 2px rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin-left: 40%;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    text-decoration: white;
+}
+
+/* Style de base pour la liste */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style de base pour les liens du menu */
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Style du menu déroulant */
+  .dropdown {
+    margin-top: 19em;
+    font-size: 20px;
+    position: fixed;
+    display: inline-block;
+  }
+  
+  /* Style du lien principal du menu déroulant */
+  .dropdown a {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style de la liste déroulante cachée par défaut */
+  .dropdown ul {
+    display: none;
+    position: absolute;
+    background-color: #efd8d8;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  /* Style des liens de la liste déroulante */
+  .dropdown ul li {
+    display: block;
+    padding: 10px;
+  }
+  
+  /* Affichage de la liste déroulante au survol du lien principal */
+  .dropdown:hover ul {
+    display: block;
+  }
+  
+  /* Couleur du bloc du menu et positionnement */
+  .dropdown{
+      margin-left: 150px;
+      background-color: rgb(208, 193, 193);
+      border-radius: 5px;
+      -webkit-box-shadow: 1px 7px 7px 2px rgba(0,0,0,0.75); 
+  box-shadow: 1px 7px 7px 2px rgba(0,0,0,0.75);
+  }
+
+  .btn1, .btn2, .btn3{
+    width: 220px;
+  }
+
+  .mention_legale{
+    display: inline-flex;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    margin-left: 30em;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(8, 8, 8);
+}
+
+.ruban{
+    background-color:  rgb(208, 193, 193, 0.4);
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    color: rgb(8, 8, 8);
+    padding-top: 4px;
+    margin-top: 12px;
+  }
+

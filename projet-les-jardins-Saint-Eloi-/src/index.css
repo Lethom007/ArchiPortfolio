@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+body { 
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5%;
+  background-image: url(image/imagetropic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.logo{
+    display: inline-flex;
+    margin-top: -70px;
+    margin-left: 55em;
+}
+
+.Présentation, .Fleurs, .Idées, .Contact, .Accueil{
+    display: inline-flex;
+    text-decoration: none;
+    width: 10em;
+    
+}
+
+.texte{
+    display: flex;
+    width: 40em;
+    margin-left: 35em;
+    margin-top: -52px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(229, 219, 206,0.6);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 19.8px;
+}
+
+.mention_legale{
+    display: inline-flex;
+    margin-top: 35px;
+    margin-left: 30em;
+    text-decoration: none;
+    margin-bottom: 10px;
+
+    color: rgb(8, 8, 8);
+}
+
+/* Style de base pour la liste */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style de base pour les liens du menu */
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Style du menu déroulant */
+.dropdown {
+  font-size: 20px;
+  position: fixed;
+  display: inline-block;
+}
+
+/* Style du lien principal du menu déroulant */
+.dropdown a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style de la liste déroulante cachée par défaut */
+.dropdown ul {
+  display: none;
+  position: absolute;
+  background-color: #efd8d8;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+/* Style des liens de la liste déroulante */
+.dropdown ul li {
+  display: block;
+  padding: 10px;
+}
+
+/* Affichage de la liste déroulante au survol du lien principal */
+.dropdown:hover ul {
+  display: block;
+}
+
+/* Couleur du bloc du menu et positionnement */
+.dropdown{
+    margin-left: 150px;
+    background-color: rgb(208, 193, 193);
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 7px 7px 2px rgba(0,0,0,0.75); 
+box-shadow: 1px 7px 7px 2px rgba(0,0,0,0.75);
+}
+
+.nos_fleur{
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 14em;
+    display: flex;
+    font-size: 45px;
+}
+
+table{
+  background-color:  rgb(229, 219, 206,0.7);
+  border-radius: 10px;
+  margin-left: 260px;
+}
+
+.prix{
+  font-size: 25px;
+  padding: 0px 60px;
+}
+
+.titreP{
+  padding: 0px 15px;
+  font-size: 25px;
+}
+
+.contenuF{
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+.ruban{
+  background-color:  rgb(208, 193, 193, 0.4);
+  margin-top: -65px;
+  font-size: 22px;
+  padding-top: 4px;
+}
+
+
+ 
